@@ -1,0 +1,39 @@
+*{ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+body{
+  background-image: url(image/kizkulesi.webp);
+  background-size: 100%;
+
+} 
+input {
+  text-align: center;
+ color: rgb(60, 37, 33);
+ font-size: medium;
+ box-sizing: border-box;
+ 
+}
+.search-container ul,input {
+  margin: 0 auto;
+  position: relative;
+  width: 300px;
+  height: 30px;
+  margin-top: 300px;
+  border-radius: 10px;
+  text-align: center;
+  left: 620px;
+
+}
+.ul li {
+  list-style-type: none;
+  font-size: large;
+  font-family: 'Segoe UI', sans-serif;
+
+}
+.suggestions, ul{
+text-align: center;
+}
